@@ -11,7 +11,7 @@ import circleCenterRenderer from './renderCircleCenter.js'
 import verticalBarsRenderer from './verticalBarRenderer.js'
 import verticalBarsMonoRenderer from './verticalBarsMonoRenderer.js'
 import radialRayRenderer from './radialRayRenderer.js'
-
+import boxesRenderer from './boxesRenderer.js'
 
 // --------------------------------------------------------
 // Canvas
@@ -86,9 +86,9 @@ function render() {
 	// verticalBarsMonoRenderer(frequencyArray, ctx, 12, 300, 300)
 	// verticalBarsRenderer(frequencyArray, ctx, 300, 300)
 	// circleCenterRenderer(frequencyArray, ctx, centerX, centerY)
-	circleGridRenderer(frequencyArray, ctx, 300, 300)
+	// circleGridRenderer(frequencyArray, ctx, 300, 300)
 	//circleRenderer(frequencyArray, ctx, centerX, centerY, radius)
-
+	boxesRenderer(frequencyArray, ctx, 300, 300)
 	// Set up the next animation frame
 	requestAnimationFrame(render)
 }
