@@ -16,7 +16,7 @@ function render(frequencyArray, ctx, width, height) {
 	ctx.fillRect(0, 0, width, height)
     ctx.fill()
     
-	const bars = frequencyArray.length 
+	const bars = frequencyArray.length + 100
 	const colorStep = 360 / bars
     ctx.lineWidth = 3
     
