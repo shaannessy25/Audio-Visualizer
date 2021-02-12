@@ -39,7 +39,7 @@ function render(frequencyArray, ctx, width, height) {
         ctx.strokeStyle = `hsla(${colorStep * i}, 100%, 50%, 1.0)`
 
         ctx.stroke()
-	})
+	}) 
 }
 
 export default render

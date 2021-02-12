@@ -1,0 +1,27 @@
+{
+    "editor.fontFamily": "'Jetbrains Mono', Fira Code",
+    "editor.semanticHighlighting.enabled": true,
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    "editor.letterSpacing": 0.4,
+    "editor.smoothScrolling": true,
+    // "editor.tokenColorCustomizations": {
+    //     "[Tokyo Night]": { // or "[Tokyo Night Storm]"
+    //         "textMateRules": [{
+    //             "scope": [
+    //                 "comment",
+    //                 "meta.var.expr storage.type",
+    //                 "keyword.control.flow",
+    //                 "meta.directive.vue punctuation.separator.key-value.html",
+    //                 "meta.directive.vue entity.other.attribute-name.html",
+    //                 "tag.decorator.js entity.name.tag.js",
+    //                 "tag.decorator.js punctuation.definition.tag.js",
+    //                 "storage.modifier"
+    //             ],
+    //             "settings": {
+    //                 "fontStyle": ""
+    //             }
+    //         }]
+    //     }
+    // }
+}
